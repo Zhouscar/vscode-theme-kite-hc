@@ -1,9 +1,9 @@
 {
-  "name": "vscode-theme-kite",
-  "displayName": "Kite Theme",
-  "description": "Kite Theme is a modern and stylish theme that looks really cool with its dark colors and simple design.",
-  "version": "1.1.2",
-  "publisher": "yudinikita",
+  "name": "vscode-theme-kite-wcag",
+  "displayName": "Kite Theme WCAG",
+  "description": "Kite Theme but with higher contrast.",
+  "version": "0.0.1",
+  "publisher": "Zhouscar",
   "license": "MIT",
   "icon": "images/icon.png",
   "engines": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nblackninja/vscode-theme-kite"
+    "url": "https://github.com/Zhouscar/vscode-theme-kite-hc"
   },
   "bugs": {
-    "url": "https://github.com/nblackninja/vscode-theme-kite/issues"
+    "url": "https://github.com/Zhouscar/vscode-theme-kite-hc/issues"
   },
   "categories": [
     "Themes"
@@ -28,17 +28,17 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kite Dark",
+        "label": "Kite Dark WCAG",
         "uiTheme": "vs-dark",
         "path": "./themes/kite-dark.json"
       },
       {
-        "label": "Kite Light",
+        "label": "Kite Light WCAG",
         "uiTheme": "vs",
         "path": "./themes/kite-light.json"
       },
       {
-        "label": "Kite Darker",
+        "label": "Kite Darker WCAG",
         "uiTheme": "vs-dark",
         "path": "./themes/kite-darker.json"
       }
